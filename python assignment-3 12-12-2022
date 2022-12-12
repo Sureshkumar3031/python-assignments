@@ -1,0 +1,2 @@
+value=list(map(int, input().split()))
+print(value[0::2])
