@@ -1,4 +1,4 @@
-n=int(input("enter number of States: "))
+n=int(input("enter numbers: "))
 a=[]
 for i in range(0,n):
 	a.append(input())
