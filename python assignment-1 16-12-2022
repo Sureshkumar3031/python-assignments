@@ -1,12 +1,5 @@
-str=input("Enter a string: ")
-n=len(str)
-print(n)
-
-str1=input("Enter capital letters: ")
-print(str1.lower())
-
-str2=input("Enter small letters: ")
-print(str2.upper())
-
-str3=input("Enter one string: ")
-print(str3.upper(),str3.lower())
+str=input("Enter a string:")
+print(len(str))
+print(str.upper())
+print(str.lower())
+print(str.swapcase())
