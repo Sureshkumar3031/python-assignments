@@ -1,0 +1,6 @@
+start=int(input("enter the first year:"))
+end=int(input("enter the last year:"))
+print("the leap years in the given below:")
+for year in range(start,end+1):
+    if(year%4==0 and year%100!=0)or(year%400==0):
+        print(year,end=" ")
